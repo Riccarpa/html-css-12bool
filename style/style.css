@@ -2,12 +2,12 @@ body {
     margin-top: 50px;
 }
 
-.row {
-    height: 150px;
-}
-
 .row * {
     border: 1px solid black;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
 }
 
 .row.nest {
