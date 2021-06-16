@@ -2,26 +2,13 @@ body {
     margin-top: 50px;
 }
 
-.row:last-child {
-    margin-bottom: 50px;
-    border-bottom: 1px solid black;
-}
-
-.row * {
+.row>* {
     border: 1px solid black;
     height: 150px;
-    text-align: center;
-    line-height: 150px;
-    vertical-align: middle;
 }
 
-.h170 {
-    height: 140px;
-}
-
-.row.nest {
+.flex.nest {
     padding: 5px;
-    line-height: 140px;
 }
 
 .border-white {

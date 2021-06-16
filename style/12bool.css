@@ -24,10 +24,17 @@
 }
 
 
-/* disply inline-block */
+/* disply  */
 
 .display-ib {
     display: inline-block;
+}
+
+.flex {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 
