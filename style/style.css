@@ -2,6 +2,11 @@ body {
     margin-top: 50px;
 }
 
+.row:last-child {
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
 .row * {
     border: 1px solid black;
     height: 150px;
@@ -10,8 +15,13 @@ body {
     vertical-align: middle;
 }
 
+.h170 {
+    height: 140px;
+}
+
 .row.nest {
-    padding: 2px;
+    padding: 5px;
+    line-height: 140px;
 }
 
 .border-white {
