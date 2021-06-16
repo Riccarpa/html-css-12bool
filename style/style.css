@@ -1,0 +1,22 @@
+body {
+    margin-top: 50px;
+}
+
+.row {
+    background-color: pink;
+    height: 150px;
+}
+
+.row * {
+    border: 1px solid black;
+}
+
+.row .nest {
+    background-color: rgb(231, 119, 137);
+    border: 1px solid white;
+}
+
+.row.nest {
+    padding: 2px;
+    background-color: pink;
+}

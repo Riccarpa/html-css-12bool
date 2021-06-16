@@ -24,6 +24,28 @@
 }
 
 
+/* disply inline-block */
+
+.display-ib {
+    display: inline-block;
+}
+
+
+/* position */
+
+.relative {
+    position: relative;
+}
+
+
+/* image-fluid */
+
+.image-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
 /* flex */
 
 .row {
