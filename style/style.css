@@ -3,7 +3,6 @@ body {
 }
 
 .row {
-    background-color: pink;
     height: 150px;
 }
 
@@ -11,12 +10,18 @@ body {
     border: 1px solid black;
 }
 
-.row .nest {
-    background-color: rgb(231, 119, 137);
+.row.nest {
+    padding: 2px;
+}
+
+.border-white {
     border: 1px solid white;
 }
 
-.row.nest {
-    padding: 2px;
+.bg-pink {
     background-color: pink;
+}
+
+.bg-dpink {
+    background-color: rgb(231, 119, 137);
 }
